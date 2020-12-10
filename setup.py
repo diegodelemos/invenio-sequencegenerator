@@ -16,18 +16,12 @@ readme = open('README.rst').read()
 history = open('CHANGES.rst').read()
 
 tests_require = [
-    'check-manifest>=0.25',
-    'coverage>=4.0',
-    'isort>=4.3.3',
-    'pydocstyle>=2.0.0',
-    'pytest-cov>=2.5.1',
-    'pytest-pep8>=1.0.6',
-    'pytest-invenio>=1.0.6',
+    'pytest-invenio>=1.4.0'
 ]
 
 extras_require = {
     'docs': [
-        'Sphinx>=1.5.1',
+        'Sphinx>=3',
     ],
     'mysql': [
         'invenio-db[mysql,versioning]>=1.0.0',
